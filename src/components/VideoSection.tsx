@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { trackEvent } from "@/lib/tracking";
 
-const VIDEO_SRC = "src/assets/stage1pitch.mp4";
+const VIDEO_SRC = new URL("../assets/stage1pitch.mp4", import.meta.url).href;
+const VIDEO_POSTER = new URL("../assets/stage1pitch.png", import.meta.url).href;
 
 export function VideoSection() {
   const { t } = useI18n();
@@ -10,17 +11,25 @@ export function VideoSection() {
   const [played, setPlayed] = useState(false);
   const [failed, setFailed] = useState(false);
 
+  const tryPlay = () => {
+    const el = ref.current;
+    if (!el) return;
+    void el.play().catch(() => {
+      // If autoplay is blocked, the poster still keeps the section usable.
+    });
+    if (!played) {
+      trackEvent("video_play");
+      setPlayed(true);
+    }
+  };
+
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
     const obs = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          el.play().catch(() => {/* autoplay blocked is fine */});
-          if (!played) {
-            trackEvent("video_play");
-            setPlayed(true);
-          }
+          tryPlay();
         } else {
           el.pause();
         }
@@ -49,11 +58,15 @@ export function VideoSection() {
                 ref={ref}
                 className="aspect-video w-full object-cover"
                 src={VIDEO_SRC}
+                poster={VIDEO_POSTER}
                 muted
+                defaultMuted
                 loop
                 playsInline
                 autoPlay
-                preload="metadata"
+                preload="auto"
+                onLoadedMetadata={tryPlay}
+                onCanPlay={tryPlay}
                 onError={() => setFailed(true)}
               />
             ) : (

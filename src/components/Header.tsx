@@ -20,7 +20,7 @@ export function Header({ onUpload }: { onUpload: () => void }) {
           <LangSwitcher />
           <button
             onClick={() => { trackEvent("cta_click", { location: "header" }); onUpload(); }}
-            className="hidden rounded-full bg-foreground px-4 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90 sm:inline-flex"
+            className="hidden rounded-full bg-sky-500 px-4 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90 sm:inline-flex"
           >
             {t("nav.upload")}
           </button>

@@ -21,19 +21,26 @@ export function Hero({ onUpload, onCommunity }: { onUpload: () => void; onCommun
             </p>
 
             <div className="mt-7 flex flex-wrap items-center gap-3">
-              <button
-                onClick={() => { trackEvent("cta_click", { location: "hero_primary" }); onUpload(); }}
-                className="rounded-full bg-foreground px-5 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
-              >
-                {t("hero.cta")}
-              </button>
-              <button
-                onClick={() => { trackEvent("cta_click", { location: "hero_secondary" }); onCommunity(); }}
-                className="rounded-full border border-border bg-background px-5 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
-              >
-                {t("hero.cta2")}
-              </button>
-            </div>
+            <button
+              onClick={() => {
+                trackEvent("cta_click", { location: "hero_primary" });
+                onUpload();
+              }}
+              className="rounded-full bg-sky-500 px-5 py-3 text-sm font-medium text-white transition-all hover:bg-sky-600 hover:scale-[1.02]"
+            >
+              {t("hero.cta")}
+            </button>
+
+            <button
+              onClick={() => {
+                trackEvent("cta_click", { location: "hero_secondary" });
+                onCommunity();
+              }}
+              className="rounded-full border border-border bg-background px-5 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
+            >
+              {t("hero.cta2")}
+            </button>
+          </div>
 
             <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-xs text-muted-foreground">
               <span>· {t("hero.note1")}</span>

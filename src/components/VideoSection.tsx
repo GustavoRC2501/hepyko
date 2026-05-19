@@ -2,8 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { trackEvent } from "@/lib/tracking";
 
-const VIDEO_SRC =
-  "https://assets.mixkit.co/videos/preview/mixkit-young-business-people-coworking-4830-large.mp4";
+const VIDEO_SRC = "src/assets/stage1pitch.mp4";
 
 export function VideoSection() {
   const { t } = useI18n();
@@ -61,7 +60,7 @@ export function VideoSection() {
               <div className="grid aspect-video w-full place-items-center bg-gradient-to-br from-foreground to-zinc-700 text-background/80">
                 <div className="text-center">
                   <div className="text-4xl">▶</div>
-                  <div className="mt-2 text-sm opacity-80">Demo coming soon</div>
+                  <div className="mt-2 text-sm opacity-80">Join Hepyko</div>
                 </div>
               </div>
             )}

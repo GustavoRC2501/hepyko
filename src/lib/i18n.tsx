@@ -9,7 +9,7 @@ const en: Dict = {
   "nav.community": "Community",
   "nav.upload": "Upload My Pitch",
 
-  "hero.eyebrow": "For founders building in public",
+  "hero.eyebrow": "Built by entrepreneurs. For founders.",
   "hero.title": "Your startup shouldn't grow in silence.",
   "hero.subtitle":
     "Upload your pitch on Hepyko, get real feedback, visibility, and connect with founders building real startups.",
@@ -17,19 +17,22 @@ const en: Dict = {
   "hero.cta2": "Join the Community",
   "hero.note1": "Takes less than 3 minutes.",
   "hero.note2": "No perfect pitch required.",
-
-  "video.eyebrow": "See it in motion",
-  "video.title": "Founders shipping. Community responding.",
-  "video.caption": "Real pitches. Real feedback. Real momentum.",
+  
+  "video.eyebrow": "See ideas become startups",
+  "video.title": "Pitches turning into opportunities.",
+  "video.caption": "Founders turning ambition into momentum.",
 
   "how.eyebrow": "How it works",
   "how.title": "Three steps. That's it.",
   "how.1.title": "Upload your pitch",
   "how.1.body": "Share your startup in minutes.",
-  "how.2.title": "Get community feedback",
+  "how.2.title": "Get feedback",
   "how.2.body": "Receive comments, votes, and visibility.",
   "how.3.title": "Grow your startup",
   "how.3.body": "Connect, improve, and participate in the ecosystem.",
+
+  "how.final": "The most voted ideas and startups will gain visibility among investors, founders, and ecosystem partners.",
+
 
   "partners.title": "Trusted by communities & partners",
 
@@ -64,7 +67,7 @@ const es: Dict = {
   "nav.community": "Comunidad",
   "nav.upload": "Subir mi pitch",
 
-  "hero.eyebrow": "Para founders que construyen en público",
+  "hero.eyebrow": "Hecho por emprendedores. Para founders.",
   "hero.title": "Tu startup no debería crecer en silencio.",
   "hero.subtitle":
     "Sube tu pitch en Hepyko, recibe feedback real, gana visibilidad y conecta con founders construyendo startups reales.",
@@ -73,18 +76,21 @@ const es: Dict = {
   "hero.note1": "Toma menos de 3 minutos.",
   "hero.note2": "No se requiere un pitch perfecto.",
 
-  "video.eyebrow": "Míralo en movimiento",
-  "video.title": "Founders lanzando. Comunidad respondiendo.",
-  "video.caption": "Pitches reales. Feedback real. Momentum real.",
+
+  "video.eyebrow": "Donde las ideas salen al mundo",
+  "video.title": "Pitches que se convierten en oportunidades.",
+  "video.caption": "Ideas reales. Feedback real. Momentum real.",
 
   "how.eyebrow": "Cómo funciona",
   "how.title": "Tres pasos. Eso es todo.",
   "how.1.title": "Sube tu pitch",
   "how.1.body": "Comparte tu startup en minutos.",
-  "how.2.title": "Recibe feedback de la comunidad",
+  "how.2.title": "Recibe feedback",
   "how.2.body": "Comentarios, votos y visibilidad.",
   "how.3.title": "Haz crecer tu startup",
   "how.3.body": "Conecta, mejora y participa del ecosistema.",
+
+  "how.final": "Las ideas y startups más votadas obtendrán visibilidad frente a inversores, founders y partners del ecosistema.",
 
   "partners.title": "Comunidades y partners que confían en nosotros",
 

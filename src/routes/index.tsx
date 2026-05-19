@@ -18,7 +18,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Hepyko is where founders publish their startup, receive real feedback, and connect with the ecosystem. Upload your pitch in under 3 minutes.",
+          "Hepyko is where founders publish their startup or project, receive real feedback, and connect with the ecosystem. Upload your pitch in under 3 minutes.",
       },
       { property: "og:title", content: "Hepyko — Upload your pitch. Grow your startup." },
       {

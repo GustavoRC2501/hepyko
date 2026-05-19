@@ -25,8 +25,15 @@ export function HowItWorks() {
               <p className="mt-2 text-sm text-muted-foreground">{s.body}</p>
             </div>
           ))}
+
         </div>
+
+ <p className="mt-6 text-center text-base text-cyan-400 drop-shadow-[0_0_8px_rgba(96,165,250,0.9)]">
+  {t("how.final")}
+</p>
+
       </div>
+
     </section>
   );
 }

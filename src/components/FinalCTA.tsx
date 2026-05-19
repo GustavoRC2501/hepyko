@@ -10,12 +10,14 @@ export function FinalCTA({ onUpload }: { onUpload: () => void }) {
         <div className="mt-8">
           <button
             onClick={() => { trackEvent("cta_click", { location: "final" }); onUpload(); }}
-            className="rounded-full bg-foreground px-6 py-3.5 text-sm font-medium text-background transition-opacity hover:opacity-90"
+            className="rounded-full bg-sky-500 px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-sky-600 hover:scale-[1.02]"
           >
             {t("final.cta")}
           </button>
         </div>
+       
       </div>
     </section>
   );
 }
+

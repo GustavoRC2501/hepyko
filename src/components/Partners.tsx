@@ -1,8 +1,8 @@
 import { useI18n } from "@/lib/i18n";
 
 const partners = [
-  "Founders Circle", "LATAM Build", "OpenStartup", "Indie Capital",
-  "Stack Forum", "Pitch House", "NorthLab", "RemoteFirst",
+  "Amazon Web Services", "BePro", "BCN Entrepreneurs", "Fase Uno Startups", 
+  "DIT", "NVIDIA", "UNLAM", "CloudVisor", "Open KX",
 ];
 
 export function Partners() {

@@ -12,11 +12,13 @@ const en: Dict = {
   "hero.eyebrow": "Built by entrepreneurs. For founders.",
   "hero.title": "Your startup shouldn't grow in silence.",
   "hero.subtitle":
-    "Upload your pitch on Hepyko, get real feedback, visibility, and connect with founders building real startups.",
+    "Upload your pitch on Hepyko, get real feedback, visibility, and connect with founders building real startups — free.",
   "hero.cta": "Upload My Pitch",
   "hero.cta2": "Join the Community",
-  "hero.note1": "Takes less than 3 minutes.",
-  "hero.note2": "No perfect pitch required.",
+  "hero.note1": "FREE",
+  "hero.note2": "3 minutes",
+  "hero.note3": "No perfect pitch",
+
   
   "video.eyebrow": "See ideas become startups",
   "video.title": "Pitches turning into opportunities.",
@@ -31,7 +33,7 @@ const en: Dict = {
   "how.3.title": "Grow your startup",
   "how.3.body": "Connect, improve, and participate in the ecosystem.",
 
-  "how.final": "The most voted ideas and startups will gain visibility among investors, founders, and ecosystem partners.",
+  "how.final": "The most voted ideas and startups will gain visibility among investors, founders and ecosystem partners.",
 
 
   "partners.title": "Trusted by communities & partners",
@@ -70,11 +72,12 @@ const es: Dict = {
   "hero.eyebrow": "Hecho por emprendedores. Para founders.",
   "hero.title": "Tu startup no debería crecer en silencio.",
   "hero.subtitle":
-    "Sube tu pitch en Hepyko, recibe feedback real, gana visibilidad y conecta con founders construyendo startups reales.",
+    "Sube tu pitch en Hepyko, recibe feedback real, gana visibilidad y conecta con founders construyendo startups reales - gratis.",
   "hero.cta": "Subir mi pitch",
   "hero.cta2": "Unirme a la comunidad",
-  "hero.note1": "Toma menos de 3 minutos.",
-  "hero.note2": "No se requiere un pitch perfecto.",
+  "hero.note1": "GRATIS",
+  "hero.note2": "3 minutos",
+  "hero.note3": "Sin pitch perfecto",
 
 
   "video.eyebrow": "Donde las ideas salen al mundo",

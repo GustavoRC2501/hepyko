@@ -23,7 +23,7 @@ export const Route = createFileRoute("/terms")({
       <h2>4. Termination</h2>
       <p>We may suspend accounts that violate these Terms or harm the community.</p>
       <h2>5. Contact</h2>
-      <p>Questions? Email hello@hepyko.com.</p>
+      <p>Questions? Email info@hepyko.com.</p>
     </LegalLayout>
   ),
 });

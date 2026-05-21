@@ -15,8 +15,10 @@ export function Footer() {
           <Link to="/terms" className="hover:text-foreground transition-colors">{t("footer.terms")}</Link>
           <Link to="/privacy" className="hover:text-foreground transition-colors">{t("footer.privacy")}</Link>
           <Link to="/cookies" className="hover:text-foreground transition-colors">{t("footer.cookies")}</Link>
-          <a href="mailto:hello@hepyko.com" className="hover:text-foreground transition-colors">{t("footer.contact")}</a>
+          <a href="mailto:info@hepyko.com" className="hover:text-foreground transition-colors">{t("footer.contact")}</a>
+          {/*
           <a href="#community" className="hover:text-foreground transition-colors">{t("footer.community")}</a>
+          */}
         </nav>
       </div>
     </footer>

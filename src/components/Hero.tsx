@@ -6,7 +6,7 @@ export function Hero({ onUpload, onCommunity }: { onUpload: () => void; onCommun
   const { t } = useI18n();
   return (
     <section className="relative overflow-hidden">
-      <div className="mx-auto max-w-6xl px-5 pt-16 pb-10 md:pt-24 md:pb-16">
+      <div className="mx-auto max-w-6xl px-5 pt-8 pb-10 md:pt-14 md:pb-16">
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div className="fade-up">
             <span className="inline-flex items-center gap-2 rounded-full border border-border px-3 py-1 text-xs text-muted-foreground">
@@ -31,6 +31,7 @@ export function Hero({ onUpload, onCommunity }: { onUpload: () => void; onCommun
               {t("hero.cta")}
             </button>
 
+            {/*
             <button
               onClick={() => {
                 trackEvent("cta_click", { location: "hero_secondary" });
@@ -40,11 +41,14 @@ export function Hero({ onUpload, onCommunity }: { onUpload: () => void; onCommun
             >
               {t("hero.cta2")}
             </button>
+            */}
           </div>
+        
 
             <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-xs text-muted-foreground">
               <span>· {t("hero.note1")}</span>
               <span>· {t("hero.note2")}</span>
+              <span>· {t("hero.note3")}</span>
             </div>
           </div>
 

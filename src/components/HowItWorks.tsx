@@ -28,9 +28,11 @@ export function HowItWorks() {
 
         </div>
 
- <p className="mt-6 text-center text-base text-cyan-400 drop-shadow-[0_0_8px_rgba(96,165,250,0.9)]">
-  {t("how.final")}
-</p>
+<div className="mt-6 flex justify-center">
+  <p className="inline-flex items-center rounded-xl border border-blue-200 bg-blue-50 px-5 py-2 text-sm font-medium text-blue-700">
+    {t("how.final")}
+  </p>
+</div>
 
       </div>
 

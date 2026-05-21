@@ -23,7 +23,7 @@ export const Route = createFileRoute("/privacy")({
       <h2>Retention</h2>
       <p>We retain data only as long as necessary for the purposes described or as required by law.</p>
       <h2>Contact</h2>
-      <p>privacy@hepyko.com</p>
+      <p>info@hepyko.com</p>
     </LegalLayout>
   ),
 });
